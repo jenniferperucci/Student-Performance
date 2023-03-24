@@ -1,11 +1,11 @@
 import Form from '../components/Form';
 import List from '../components/List';
-import './style.scss'
+import  style from './Home.module.scss'
 
 function Home() {
   return (
 
-    <div className='HomeStyle'>
+    <div className={style.HomeStyle}>
       <Form />
       <List />
     </div>
